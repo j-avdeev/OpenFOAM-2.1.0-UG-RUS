@@ -1,7 +1,12 @@
-\documentclass[a4paper,10pt]{book}
-\usepackage[utf8x]{inputenc}
+\documentclass[a4paper,14pt]{book}
 \usepackage[english,russian]{babel}
-\usepackage{graphicx} 
+\usepackage{graphicx}
+\usepackage[utf8x]{inputenc}
+\DeclareUnicodeCharacter{FB01}{fi}
+\usepackage{hyperref}
+\usepackage{imakeidx}
+
+
 
 \usepackage{geometry} % Меняем поля страницы
 \geometry{left=2cm}% левое поле
@@ -19,6 +24,7 @@
 \usepackage{hyperref}
 
 \begin{document}
+
 
 \input{Vvedenie}
 \input{Glava1}
